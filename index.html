@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First WebPage</title>
+    <style>
+        form {
+            width: 30%;
+            margin: auto;
+            box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.2);
+            padding: 10px 16px;
+        }
+
+         input {
+            width: 100%;
+            margin-bottom: 16px;
+            margin-top: 0px;
+            padding: 12px 15px;
+            box-sizing: border-box;
+            border: none;
+            border-bottom: 1px solid rgb(4, 132, 47);
+        }
+        button{
+            color: aliceblue;
+        }
+
+         button {
+            background: rgb(6, 145, 4);
+        }
+
+        button:hover {
+            background: rgb(219, 224, 219);
+        }
+        table{
+            width: 70%;
+            font-family: 'Robot', san-serif;
+            border-collapse: collapse;
+            margin: auto;
+        }
+
+        thead{
+            background-color: rgb(7, 93, 5);
+            color: aliceblue;
+            font-weight: bold;
+            font-size: 1.2rem;
+            border-radius: 16px;
+        }
+
+         tbody tr:hover{
+            background-color: rgb(11, 86, 116);
+            color: rgb(15, 206, 85);
+            font-weight: 700;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h3 {
+            text-align: center;
+            font-size: large;
+        }
+
+        body {
+                background-image:
+                linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(17, 119, 93, 0.73))                          
+                ,url("bg.webp");
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome To My First WebPage</h1>
+    </header>
+    <section>
+        <h2>About This WebPage</h2>
+        <p>Welcome to my first WebPage with PLP Academy. Below you will find a registration form to fill,
+            a table, my image and a link to Google.</p>
+    </section>
+
+    <form>
+        <div>
+            <label>Full Name</label>
+            <input type="text" required placeholder="Charles Kioko" maxlength="20">
+        </div>
+    
+        <div>
+            <label>Email</label>
+            <input type="email" required placeholder="charleskioko702@gmail.com">
+        </div>
+        <div>
+            <label>Phone</label>
+            <input type="tel" required placeholder="+254706792019">
+        </div>
+    
+        <div>
+            <label>DOB</label>
+            <input type="date">
+        </div>
+
+        <button>Submit</button>
+
+    </form>
+    <section>
+        <h3>User Information Table</h3>
+<table border="1">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+        <tr>
+            <td>Charles</td>
+            <td>charles@gmail.com</td>
+            <td>+254706792019</td>
+        </tr>
+        <tr>
+            <td>Joe</td>
+            <td>joe@gmail.com</td>
+            <td>0782647374</td>
+
+        <tr>
+            <td>Tom</td>
+            <td>tom@gmail.com</td>
+            <td>+23376836245</td>
+        </tr>
+        <tr>
+            <td>Mary</td>
+            <td>sam@gmail.com</td>
+            <td>0764545346</td>
+        </tr>
+
+        </tr>
+    </tbody>
+</table>
+    </section>
+
+    <section>
+        <h2>My Image</h2>
+        <img src="selfie.jpg" alt="Charles' image" height="500" width="350">
+    </section>
+    
+    <section>
+        <p>For more information, visit <a href="https://google.com" target="_blank">Google</a></p>
+        
+    </section>
+
+
+</body>
+
+</html>
